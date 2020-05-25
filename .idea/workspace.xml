@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a468bd00-c7cb-4a18-8790-855f23e6bf57" name="Default Changelist" comment="" />
+    <list default="true" id="a468bd00-c7cb-4a18-8790-855f23e6bf57" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +14,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="DONT_SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.4">
     <include_path>
@@ -111,6 +118,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1bqOSBO7o9V62q0gBpANgsKGVzR" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -119,6 +127,7 @@
     <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -129,7 +138,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="php.override.implement.member.chooser.php.doc" value="NONE" />
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.composer" />
+    <property name="settings.editor.selected.configurable" value="preferences.customizations" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -170,7 +179,7 @@
       <workItem from="1590058791560" duration="6000" />
       <workItem from="1590069526574" duration="770000" />
       <workItem from="1590128724073" duration="11343000" />
-      <workItem from="1590392458322" duration="376000" />
+      <workItem from="1590392458322" duration="1042000" />
     </task>
     <servers />
   </component>
@@ -182,6 +191,10 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2586" y="242" width="824" height="684" key="#CLI_Interpreters/1920.0.1920.1080/0.0.1920.1032@1920.0.1920.1080" timestamp="1589865220019" />
+    <state x="2749" y="383" width="251" height="263" key="#Notifications" timestamp="1590392727170">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2749" y="383" width="251" height="263" key="#Notifications/0.0.1920.1032/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590392727170" />
     <state x="2471" y="0" width="800" height="677" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589874433190">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -198,18 +211,31 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2611" y="102" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1080/0.0.1920.1032@1920.0.1920.1080" timestamp="1589982943820" />
+    <state x="2419" y="57" width="912" height="915" key="CommitChangelistDialog2" timestamp="1590393609870">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2419" y="57" width="912" height="915" key="CommitChangelistDialog2/0.0.1920.1032/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590393609870" />
     <state x="3206" y="289" width="424" height="543" key="FileChooserDialogImpl" timestamp="1590158419020">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="1286" y="276" width="424" height="484" key="FileChooserDialogImpl/0.0.1920.1032@0.0.1920.1032" timestamp="1589383045736" />
     <state x="3206" y="289" width="424" height="543" key="FileChooserDialogImpl/1920.0.1920.1080/0.0.1920.1032@1920.0.1920.1080" timestamp="1590158419020" />
+    <state x="2700" y="415" key="Github.ShareDialog" timestamp="1590392833495">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2700" y="415" key="Github.ShareDialog/0.0.1920.1032/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590392833495" />
+    <state x="2608" y="196" width="533" height="637" key="Github.UntrackedFilesDialog" timestamp="1590392945380">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2608" y="196" width="533" height="637" key="Github.UntrackedFilesDialog/0.0.1920.1032/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590392945380" />
     <state width="261" height="506" key="HiddenNamespacesPopup" timestamp="1589874052124">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state width="261" height="506" key="HiddenNamespacesPopup/1920.0.1920.1080/0.0.1920.1032@1920.0.1920.1080" timestamp="1589874052124" />
-    <state x="2492" y="219" key="SettingsEditor" timestamp="1589865670600">
+    <state x="2492" y="219" key="SettingsEditor" timestamp="1590393429927">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="2492" y="219" key="SettingsEditor/0.0.1920.1032/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590393429927" />
     <state x="572" y="209" key="SettingsEditor/0.0.1920.1032@0.0.1920.1032" timestamp="1589638673431" />
     <state x="2492" y="219" key="SettingsEditor/1920.0.1920.1080/0.0.1920.1032@1920.0.1920.1080" timestamp="1589865670600" />
     <state x="1169" y="249" width="639" height="524" key="StructurePopup" timestamp="1589380988701">
@@ -221,9 +247,10 @@
     </state>
     <state x="1104" y="234" key="run.anything.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1589376623892" />
     <state x="3024" y="245" key="run.anything.popup/1920.0.1920.1080/0.0.1920.1032@1920.0.1920.1080" timestamp="1590132545264" />
-    <state x="3023" y="235" width="672" height="710" key="search.everywhere.popup" timestamp="1590138337126">
+    <state x="3023" y="235" width="672" height="710" key="search.everywhere.popup" timestamp="1590393450910">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
+    <state x="3023" y="235" width="672" height="710" key="search.everywhere.popup/0.0.1920.1032/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590393450910" />
     <state x="1103" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1032@0.0.1920.1032" timestamp="1589381133041" />
     <state x="3023" y="235" width="672" height="710" key="search.everywhere.popup/1920.0.1920.1080/0.0.1920.1032@1920.0.1920.1080" timestamp="1590138337126" />
   </component>
