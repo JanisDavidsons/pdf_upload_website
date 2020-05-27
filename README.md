@@ -11,6 +11,9 @@ profile image.
     
     First go to https://github.com/JanisDavidsons/pdf_upload_website and
     copy project adress. 
+    
+   ![git demo](gif/9.gif)
+
     Then open terminal within a folder, were you want to download this project.
     Enter command "git clone https://github.com/JanisDavidsons/pdf_upload_website ."
     Dont forget to add dot at the end of address. 
