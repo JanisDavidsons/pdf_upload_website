@@ -59,8 +59,8 @@ class User extends Authenticatable
         return $this->hasOne(Profile::class);
     }
 
-    public function posts()
+    public function files()
     {
-        return $this->hasMany(Post::class)->orderBy('created_at', 'DESC');
+        return $this->hasMany(File::class)->orderBy('created_at', 'DESC');
     }
 }

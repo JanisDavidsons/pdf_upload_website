@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\User;
+use Illuminate\Support\Facades\DB;
 use Intervention\Image\Facades\Image;
 
 class ProfilesController extends Controller
@@ -10,10 +11,14 @@ class ProfilesController extends Controller
     public function index($user)
     {
         $user = User::query()->findOrFail($user);
+
+        $files = DB::table('files')->latest()->paginate(20);
+
         return view(
             'profiles/index',
             [
-                'user' => $user
+                'user' => $user,
+                'files' => $files
             ]
         );
     }
@@ -27,12 +32,11 @@ class ProfilesController extends Controller
     public function update(User $user)
     {
         $this->authorize('update', $user->profile);
-
         $data = request()->validate(
             [
                 'title' => 'required',
                 'description' => 'required',
-                'url' => 'url',
+                'url' => '',
                 'image' => ''
             ]
         );

@@ -14,18 +14,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', 'FileController@showAllDocuments');
 
 Auth::routes();
 
-Route::post('follow/{user}', 'FollowsController@store');
+Route::get('profile/{user}', 'ProfilesController@index')->name('profile.show');
+Route::get('profile/{user}/edit', 'ProfilesController@edit')->name('profile.edit');
+Route::patch('profile/{user}', 'ProfilesController@update')->name('profile.update');
 
-Route::get('/posts/create', 'PostsController@create');
-Route::post('/posts', 'PostsController@store');
-Route::get('/posts/{post}', 'PostsController@show');
-
-Route::get('/profile/{user}', 'ProfilesController@index')->name('profile.show');
-Route::get('/profile/{user}/edit', 'ProfilesController@edit')->name('profile.edit');
-Route::patch('/profile/{user}', 'ProfilesController@update')->name('profile.update');
+Route::get('files/create', 'FileController@create');
+Route::post('files/create', 'FileController@store');
+Route::post('files', 'FilesController@store');
+Route::delete('files/delete/{id}', 'FileController@delete');
+Route::get('files/{file}', 'FileController@show');

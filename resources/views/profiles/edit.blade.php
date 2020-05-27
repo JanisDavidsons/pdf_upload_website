@@ -5,7 +5,6 @@
         <form action="/profile/{{$user->id}}" enctype="multipart/form-data" method="post">
             @csrf
             @method('PATCH')
-
             <div class="row">
                 <div class="col-8 offset-2">
                     <div class="row"><h1>Edit profile</h1></div>
@@ -46,7 +45,7 @@
                         <label for="url" class="col-md-4 col-form-label ">URL</label>
 
                         <input id="url"
-                               type="te"
+                               type="url"
                                class="form-control @error('url') is-invalid @enderror" name="url"
                                value="{{ old('url') ?? $user->profile->url}}"
                                autocomplete="url">

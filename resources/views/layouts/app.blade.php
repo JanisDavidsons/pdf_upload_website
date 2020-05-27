@@ -26,7 +26,7 @@
             <a class="navbar-brand d-flex" href="{{ url('/') }}">
                 <div><img src="/svg/websiteLogo.svg" alt="Web site logo"
                           style="height: 30px; border-right: 2px solid #1b1e21" class="pr-3"></div>
-                <div class="pl-3">Janis Davidsons web</div>
+                <div class="pl-3">Janis Davidsons PDF sharing</div>
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false"
@@ -77,8 +77,7 @@
             </div>
         </div>
     </nav>
-
-    <main class="py-4">
+    <main>
         @yield('content')
     </main>
 </div>
