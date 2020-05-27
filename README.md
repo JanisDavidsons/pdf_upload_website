@@ -41,16 +41,16 @@ profile image.
     
    ![git demo](gif/4.gif)
 
-    I will use sqlite as database. 
     Create new file in databse folder with command "touch database.sqlite"
+    You can use any database, but in this example I`m using sqlite.
     
    ![Image](gif/5.gif)
 
-     In the .env file, add database information to allow Laravel to connect to the database.    
+     In the .env file, add database information to allow Laravel to connect to the database.  
+     Leave only this part in database section "DB_CONNECTION=sqlite"  
 
    ![git demo](gif/.env.png)
    ![Image](gif/6.gif)
-
 
     Migrate the database
    ![git demo](gif/7.gif)
