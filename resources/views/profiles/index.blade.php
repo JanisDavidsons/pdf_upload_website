@@ -16,7 +16,8 @@
                         </div>
                     </div>
                     @can('update', $user->profile)
-                        <button type="submit" onclick="location.href='/files/create'">Add File</button>
+                        <button type="submit" onclick="location.href='/files/create'" class="btn btn-primary">Add File
+                        </button>
                     @endcan
                 </div>
 
@@ -54,7 +55,7 @@
                 @can('delete',App\File::find($file->id))
                     <div class="col-3 pb-4 d-flex justify-content-center">
                         <div class="row p-3">
-                            <div style="border: 3px solid #000000" class="mb-2">
+                            <div style="border: 2px solid #000000" class="mb-2">
                                 <div class="d-flex justify-content-end p-1">
                                     <form action="/files/delete/{{$file->id}}" method="POST">
                                         <button type="submit" class="btn btn-danger">Delete</button>

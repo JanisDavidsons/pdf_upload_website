@@ -78,12 +78,6 @@
             @endauth
         </div>
     @endif
-
-    <div class="content">
-        <div class="title m-b-md">
-            PDF database
-        </div>
-    </div>
 </div>
 </body>
 </html>

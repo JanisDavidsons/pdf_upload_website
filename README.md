@@ -12,56 +12,56 @@ profile image.
     First go to https://github.com/JanisDavidsons/pdf_upload_website and
     copy project adress. 
     
-   ![git demo](gif/9.gif)
+   ![git demo](sampleImg/9.gif)
 
     Then open terminal within a folder, were you want to download this project.
     Enter command "git clone https://github.com/JanisDavidsons/pdf_upload_website ."
     Dont forget to add dot at the end of address. 
     This will extract all project content in that folder.
 
-   ![git demo](gif/git.gif)
+   ![git demo](sampleImg/git.gif)
 
     Install Composer Dependencies.
     "composer install"
 
-   ![git demo](gif/1.gif)
+   ![git demo](sampleImg/1.gif)
 
     Install NPM Dependencies.
     "npm install"
     
-   ![git demo](gif/2.gif)
+   ![git demo](sampleImg/2.gif)
 
     Create a copy of your .env file.
     "cp .env.example .env"
     
-   ![git demo](gif/3.gif)
+   ![git demo](sampleImg/3.gif)
 
     Generate an app encryption key.
     "php artisan key:generate"
     
-   ![git demo](gif/4.gif)
+   ![git demo](sampleImg/4.gif)
 
     Create new file in databse folder with command "touch database.sqlite"
     You can use any database, but in this example I`m using sqlite.
     
-   ![Image](gif/5.gif)
+   ![Image](sampleImg/5.gif)
 
      In the .env file, add database information to allow Laravel to connect to the database.  
      Leave only this part in database section "DB_CONNECTION=sqlite"  
 
-   ![git demo](gif/.env.png)
-   ![Image](gif/6.gif)
+   ![git demo](sampleImg/.env.png)
+   ![Image](sampleImg/6.gif)
 
     Migrate the database
-   ![git demo](gif/7.gif)
+   ![git demo](sampleImg/7.gif)
 
     Link public folder, where images will be stored.
     "php artisan storage:link"
-   ![git demo](gif/link_folder.gif)
+   ![git demo](sampleImg/link_folder.gif)
    
     Run local server with command "php artisan serve"
-    Open adress displayed in browser
-   ![git demo](gif/8.gif)
+    Open adress displayed in terminal, register and enjoy!
+   ![git demo](sampleImg/8.gif)
        
     
 
@@ -70,14 +70,17 @@ This exercise shows:
           * How buld software to upload files.
           * How to restrict user permissons.
           * Display PDF file thumbnails.
-          * Display document, when click on it.
+          * Display document, when clicked on it.
           * Delete file and its records from database.
           
 Some example screenshots of project:
 
-   ![git demo](gif/sample1.png)
+   ![git demo](sampleImg/sample1.png)
    
    
-   ![git demo](gif/sample2.png)
+   ![git demo](sampleImg/sample2.png)
+   
+
+   ![git demo](sampleImg/sample3.png)
 
           

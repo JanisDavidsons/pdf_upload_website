@@ -3,7 +3,7 @@
 @section('content')
     @auth()
         <div class="container">
-            <div class="d-flex justify-content-between pt-2 pb-1 pl-2" style="background-color: #b3d1fc">
+            <div class="d-flex justify-content-between pt-2 pb-1 pl-2">
                 <div>
                     <h2>All available PDF documents from registered users.</h2>
                 </div>
@@ -19,7 +19,7 @@
                 @foreach($files as $file)
                     <div class="col-3 pb-4 d-flex justify-content-center">
                         <div class="row p-3">
-                            <div style="border: 3px solid #000000" class="mb-2">
+                            <div style="border: 2px solid #000000" class="mb-2">
                                 <a href="/files/{{$file->id}}">
                                     <img class="w-100" src="/storage/{{$file->thumbnail_path}}" alt="PDF thumbnail;">
                                 </a>
