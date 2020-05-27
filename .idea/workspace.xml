@@ -11,8 +11,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a468bd00-c7cb-4a18-8790-855f23e6bf57" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/.env.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/2.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/3.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/4.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/5.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/6.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/7.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/git.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/link_folder.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/sample1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gif/sample2.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -137,7 +149,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/storage/app/public/profile" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/gif" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -150,9 +162,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gif" />
       <recent name="$PROJECT_DIR$/resources/views/profiles" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/gif" />
       <recent name="$PROJECT_DIR$/storage/app/public/profile" />
       <recent name="$PROJECT_DIR$/resources/views/profiles" />
       <recent name="$PROJECT_DIR$/resources/views/posts" />
@@ -193,7 +207,8 @@
       <workItem from="1590482403260" duration="10634000" />
       <workItem from="1590499787616" duration="32117000" />
       <workItem from="1590574606968" duration="25000" />
-      <workItem from="1590575625511" duration="925000" />
+      <workItem from="1590575625511" duration="3577000" />
+      <workItem from="1590580062898" duration="2415000" />
     </task>
     <task id="LOCAL-00001" summary="Code clean up">
       <created>1590576224145</created>
@@ -209,7 +224,21 @@
       <option name="project" value="LOCAL" />
       <updated>1590576496268</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sample profile image added">
+      <created>1590576571920</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1590576571920</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Sample profile image added">
+      <created>1590576686585</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1590576686585</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -228,6 +257,8 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Code clean up" />
     <MESSAGE value="Sample profile image added" />
     <option name="LAST_COMMIT_MESSAGE" value="Sample profile image added" />
@@ -263,10 +294,10 @@
     </state>
     <state x="2611" y="102" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1920.1032/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590568133997" />
     <state x="2611" y="102" width="524" height="484" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/1920.0.1920.1080/0.0.1920.1032@1920.0.1920.1080" timestamp="1589982943820" />
-    <state x="2419" y="57" width="912" height="915" key="CommitChangelistDialog2" timestamp="1590576496141">
+    <state x="2419" y="57" width="912" height="915" key="CommitChangelistDialog2" timestamp="1590576686501">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2419" y="57" width="912" height="915" key="CommitChangelistDialog2/0.0.1920.1032/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590576496141" />
+    <state x="2419" y="57" width="912" height="915" key="CommitChangelistDialog2/0.0.1920.1032/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590576686501" />
     <state x="3206" y="289" width="424" height="484" key="FileChooserDialogImpl" timestamp="1590430153892">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
@@ -311,14 +342,22 @@
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
     <state x="1169" y="249" width="639" height="524" key="StructurePopup/0.0.1920.1032@0.0.1920.1032" timestamp="1589380988701" />
-    <state x="2475" y="251" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590576504708">
+    <state x="2475" y="251" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1590576691241">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
-    <state x="2475" y="251" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1920.1032/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590576504708" />
+    <state x="2475" y="251" width="800" height="528" key="Vcs.Push.Dialog.v2/0.0.1920.1032/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590576691241" />
     <state x="2739" y="377" width="367" height="276" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1" timestamp="1590408801289">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2739" y="377" width="367" height="276" key="com.intellij.database.actions.DdlActions$DeleteProvider2$1/0.0.1920.1032/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590408801289" />
+    <state x="2408" y="205" width="934" height="620" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590576903582">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2408" y="205" width="934" height="620" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1032/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590576903582" />
+    <state x="2651" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1590576640630">
+      <screen x="1920" y="0" width="1920" height="1080" />
+    </state>
+    <state x="2651" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1032/1920.0.1920.1080@1920.0.1920.1080" timestamp="1590576640630" />
     <state x="2586" y="415" width="578" height="199" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1590565864683">
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>

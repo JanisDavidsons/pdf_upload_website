@@ -1,52 +1,80 @@
-This is simple laravel website, where each profile can create image galleries.
 
 # PDF sharing website
 
 This project is PDF document sharing platform. 
-Each registered user can upload and delete his own PDF document.
-Users can edit their profile, add descrition, url and upload their
+Each registered user can upload and delete his own PDF document. Users can see all
+uploaded pdf files, but delete only owned ones.
+Users can edit their profile, add description, url and upload their
 profile image.
 
- Please follow instructions below.
+ Please follow instructions below to run it on your local machine.
     
     First go to https://github.com/JanisDavidsons/pdf_upload_website and
-    copy project adress like this:
-
-![git demo](gif/git.gif)
-
+    copy project adress. 
     Then open terminal within a folder, were you want to download this project.
-    Enter command "git clone" and paste adress in terminal.
+    Enter command "git clone https://github.com/JanisDavidsons/pdf_upload_website ."
+    Dont forget to add dot at the end of address. 
+    This will extract all project content in that folder.
 
-![git demo](gif/terminal.gif)
+   ![git demo](gif/git.gif)
 
-    Then you must enter your database credentials, like so:
+    Install Composer Dependencies.
+    "composer install"
+
+   ![git demo](gif/1.gif)
+
+    Install NPM Dependencies.
+    "npm install"
     
-![git demo](gif/settings.gif)
+   ![git demo](gif/2.gif)
 
-    Start web server with command "php -S localhost:8888":
+    Create a copy of your .env file.
+    "cp .env.example .env"
     
-![git demo](gif/terminal_2.gif)
+   ![git demo](gif/3.gif)
 
-    Open web browser and register yourself by entering your credentials:
+    Generate an app encryption key.
+    "php artisan key:generate"
     
-![git demo](gif/web_1.gif)
+   ![git demo](gif/4.gif)
 
-    You will receive confirmation email:
+    I will use sqlite as database. 
+    Create new file in databse folder with command "touch database.sqlite"
     
-![Image](gif/mailReceived.png)
+   ![Image](gif/5.gif)
 
-    Now you can log in:
+     In the .env file, add database information to allow Laravel to connect to the database.    
+
+   ![git demo](gif/.env.png)
+   ![Image](gif/6.gif)
+
+
+    Migrate the database
+   ![git demo](gif/7.gif)
+
+    Link public folder, where images will be stored.
+    "php artisan storage:link"
+   ![git demo](gif/link_folder.gif)
+   
+    Run local server with command "php artisan serve"
+    Open adress displayed in browser
+   ![git demo](gif/8.gif)
+       
     
-![git demo](gif/web_2.gif)
-
-
 
 This exercise shows:
  
-          * How to build simple login/ register form.
-          * How to build email service and send conmfirmation message to new users.
-          * How to code simple save data and retrieve it from mysql database.
-          * How to build sesions, so once user logs in, he can change browser tabs and stay logged in.
+          * How buld software to upload files.
+          * How to restrict user permissons.
+          * Display PDF file thumbnails.
+          * Display document, when click on it.
+          * Delete file and its records from database.
           
+Some example screenshots of project:
+
+   ![git demo](gif/sample1.png)
+   
+   
+   ![git demo](gif/sample2.png)
+
           
-If I had more time, I would finish up password reset function. I had bug in that code, so I removed it.
