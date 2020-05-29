@@ -6,6 +6,7 @@ Each registered user can upload and delete his own PDF document. Users can see a
 uploaded pdf files, but delete only owned ones.
 Users can edit their profile, add description, url and upload their
 profile image.
+If you would like to see this app live, visit https://janisdavidsons.com/ and register.
 
  Please follow instructions below to run it on your local machine.
     
